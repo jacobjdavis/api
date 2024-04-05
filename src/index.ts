@@ -18,7 +18,7 @@ app.use(helmet());
 app.use(cors(corsOptions));
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server!');
+  res.send('Express + TypeScript Server! Now on Docker!');
 });
 
 const getQuote = async () => {
